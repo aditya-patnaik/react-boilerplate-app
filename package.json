@@ -1,8 +1,8 @@
 {
-  "name": "admin-dashboard",
+  "name": "react-boilerplate-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-server": "tsc --p tsconfig.server.json",
