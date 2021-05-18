@@ -1,0 +1,14 @@
+@import "./containers";
+@import "./components";
+
+body {
+    margin: auto;
+    // font-family: Open sans;
+    font-family: Recursive;
+    cursor: default;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+}

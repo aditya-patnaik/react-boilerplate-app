@@ -1,0 +1,35 @@
+html, body {
+    margin: auto;
+    height: 100%;
+}
+
+#root, .App {
+    height: 100%;
+}
+
+/* body {
+    background: url("/images/login-bg.png");
+} */
+
+.login-container {
+    height: 100%;
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    form {
+        background: white;
+        padding: 50px 0;
+        box-shadow: 0 0 5px black;
+        border-radius: 5px;
+    }
+
+    &__form-row {
+        margin: 20px 0;
+    }
+}
